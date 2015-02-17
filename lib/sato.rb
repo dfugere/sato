@@ -1,5 +1,5 @@
 require 'active_record'
-require "sato/version"
+require 'sato/version'
 
 module Sato
 end
