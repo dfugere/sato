@@ -41,3 +41,26 @@ push git commits and tags, and push the `.gem` file to
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+### Git Commit Messages
+
+* Use the present tense ("Add feature" not "Added feature")
+* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+* Limit the first line to 72 characters or less
+* Only one sentence on first line, no dot
+* Reference issues and pull requests liberally
+* Consider starting the commit message with an applicable emoji:
+  * :computer: `:computer:` when working on features
+  * :wrench: `:wrench:` when modifying application configuration
+  * :cloud: `:cloud:` when modifying deployment configuration
+  * :memo: `:memo:` when writing documentation
+  * :bug: `:bug:` when fixing a bug
+  * :fire: `:fire:` when removing code or files
+  * :white_check_mark: `:white_check_mark:` when adding tests
+  * :lock: `:lock:` when dealing with security
+  * :art: `:art:` when improving the format/structure of the code
+  * :racehorse: `:racehorse:` when improving performance
+  * :gem: `:gem:` when changing gem
+  * :arrow_up: `:arrow_up:` when upgrading dependencies
+  * :arrow_down: `:arrow_down:` when downgrading dependencies
+  * :octocat: `:octocat:` when making repository changes
